@@ -1097,8 +1097,8 @@ footer .email:hover {
 /* ===== SERVICE PAGE ENHANCEMENTS ===== */
 .service-tag {
     display: inline-block;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    color: var(--bg-primary);
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+    color: #000000;
     font-size: 0.7rem;
     font-weight: 600;
     padding: 4px 10px;
@@ -1127,20 +1127,5 @@ footer .email:hover {
 .section-header h2 {
     font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: var(--space-sm);
-}
-
-.btn-primary {
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    color: var(--bg-primary);
-    padding: 12px 28px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.3);
 }
 
