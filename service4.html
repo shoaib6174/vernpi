@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enterprise RAG & Knowledge Retrieval - Vernpi AI</title>
+    <title>Document Q&A System - Vernpi AI</title>
     <meta name="description"
-        content="Chat with your data. Unlock the hidden value in your documents with secure, hallucination-free AI search.">
+        content="Stop wasting hours searching. Chat with your contracts, manuals, and policies to get instant answers. Secure, private, and ready in 2 weeks.">
     <link rel="stylesheet" href="styles.css">
     <style>
         :root {
@@ -136,128 +136,99 @@
     </nav>
 
     <section class="page-header">
-        <h1>Enterprise RAG & Knowledge Retrieval</h1>
-        <p class="intro-text">Chat with your data. Unlock the hidden value in your documents with secure,
-            hallucination-free AI search.</p>
+        <div class="badge">Live in 2-3 Weeks</div>
+        <h1>Document Q&A System</h1>
+        <p class="intro-text">Stop wasting hours searching through folders. Chat with your contracts, manuals, and policies to get instant answers.</p>
     </section>
 
     <div class="container">
-        <!-- Why RAG Section -->
+        <!-- Problem / Solution -->
+        <section class="section">
+            <div class="grid grid-2">
+                <div>
+                    <h2 class="gradient-text">The Problem</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: var(--space-md);">Your team spends 20% of their week looking for information buried in PDFs, Google Drive, and old emails.</p>
+                    <p style="color: var(--text-secondary);">"Where is the latest vacation policy?"<br>"Do we have a case study for healthcare?"<br>"What does the contract say about termination?"</p>
+                </div>
+                <div>
+                    <h2 class="gradient-text">The Solution</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: var(--space-md);">A private AI that knows every document you've ever written. Ask a question, get an answer with a link to the source.</p>
+                    <ul class="benefit-list">
+                        <li>✅ <strong>Instant Answers:</strong> No more Ctrl+F.</li>
+                        <li>✅ <strong>Citations:</strong> Always shows you <em>where</em> it found the answer (e.g., "Page 12 of Employee Handbook").</li>
+                        <li>✅ <strong>Secure:</strong> Your data stays yours. Not used to train public models.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases -->
         <section class="section">
             <div class="section-header">
-                <h2>Why RAG (Retrieval-Augmented Generation)?</h2>
+                <h2>Who Needs This?</h2>
             </div>
             <div class="value-grid">
                 <div class="value-card">
-                    <h3>Instant Answers</h3>
-                    <p>Stop wasting hours searching through Sharepoint or Drive. Get precise answers from your PDFs,
-                        Docs, and SQL databases instantly.</p>
+                    <h3>HR & Onboarding</h3>
+                    <p>New hires can ask: <em>"What is the dental policy?"</em> or <em>"How do I request time off?"</em> without interrupting HR.</p>
                 </div>
                 <div class="value-card">
-                    <h3>Grounded Accuracy</h3>
-                    <p>Eliminate hallucinations. Our RAG systems provide citations for every answer, ensuring you can
-                        trust the output for critical decisions.</p>
+                    <h3>Sales Teams</h3>
+                    <p>Sales reps can ask: <em>"Do we have a case study for a healthcare client?"</em> or <em>"What is our pricing for enterprise?"</em> during a call.</p>
                 </div>
                 <div class="value-card">
-                    <h3>Enterprise Security</h3>
-                    <p>Your data stays within your perimeter. We deploy local or private-cloud RAG pipelines that ensure
-                        zero data leakage.</p>
+                    <h3>Operations</h3>
+                    <p>Staff can ask: <em>"What is the SOP for opening the store?"</em> or <em>"How do I process a refund?"</em> to get instant guidance.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Use Case Capabilities -->
+        <!-- How it Works -->
         <section class="section">
             <div class="section-header">
-                <h2>Use Case Capabilities</h2>
+                <h2>How It Works</h2>
             </div>
-
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Internal Knowledge Engine</th>
-                        <th>Customer-Facing RAG</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Data Sources</strong></td>
-                        <td><strong>Unstructured & Structured</strong> (PDFs, Wikis, Slack, SQL, ERPs)</td>
-                        <td><strong>Curated Knowledge Base</strong> (Help Center, Public Docs, Product Manuals)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Accuracy Control</strong></td>
-                        <td><strong>Strict Citations</strong> (Links to source page/document)</td>
-                        <td><strong>Brand Voice Tuned</strong> (Polished, friendly summaries)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Access Control</strong></td>
-                        <td><strong>Role-Based (RBAC)</strong> (Users only see what they have permission to)</td>
-                        <td><strong>Public / Tiered</strong> (General access for all visitors)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Latency</strong></td>
-                        <td><strong>Deep Reasoning</strong> (Slower, more analytical)</td>
-                        <td><strong>Real-Time</strong> (Optimized for speed and engagement)</td>
-                    </tr>
-                    <tr>
-                        <td class="cta-cell"></td>
-                        <td class="cta-cell"><a href="#contact-internal" class="btn btn-secondary">Build Internal
-                                Search</a></td>
-                        <td class="cta-cell"><a href="#contact-external" class="btn btn-primary">Enhance Customer
-                                Support</a></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="grid grid-3" style="text-align: center;">
+                <div class="glass-card">
+                    <div style="font-size: 3rem; margin-bottom: var(--space-md);">📂</div>
+                    <h3>1. Upload</h3>
+                    <p>Connect your Google Drive, SharePoint, or simply upload PDF, Word, and Excel files.</p>
+                </div>
+                <div class="glass-card">
+                    <div style="font-size: 3rem; margin-bottom: var(--space-md);">🔒</div>
+                    <h3>2. Secure & Index</h3>
+                    <p>We process your documents securely and create a private search index.</p>
+                </div>
+                <div class="glass-card">
+                    <div style="font-size: 3rem; margin-bottom: var(--space-md);">💬</div>
+                    <h3>3. Chat</h3>
+                    <p>Your team logs in and chats with the data. "What is the policy on X?"</p>
+                </div>
+            </div>
         </section>
 
-        <!-- Benefits -->
+        <!-- Pricing & Timeline -->
         <section class="section">
-            <div class="section-header">
-                <h2>Why SMBs Choose Us</h2>
-                <p>Turn scattered documents into an always-available expert.</p>
-            </div>
-
-            <div class="grid grid-3">
-                <div class="glass-card">
-                    <h3>🔌 Simple Setup</h3>
-                    <ul class="benefit-list">
-                        <li>Connect Google Drive, Notion, or PDFs in <strong>minutes</strong></li>
-                        <li>No data migration — we read where your docs live</li>
-                        <li>Self-service admin portal for updates</li>
-                    </ul>
+            <div class="glass-card" style="max-width: 800px; margin: 0 auto; text-align: center; border-color: var(--accent-page);">
+                <h2 style="color: var(--accent-page);">Simple Pricing & Timeline</h2>
+                <div class="grid grid-2" style="margin-top: var(--space-lg); text-align: left;">
+                    <div>
+                        <h3>⏱️ Timeline</h3>
+                        <p style="font-size: 1.5rem; font-weight: bold;">2-3 Weeks</p>
+                        <p>From kickoff to your team using it.</p>
+                    </div>
+                    <div>
+                        <h3>💰 Investment</h3>
+                        <p style="font-size: 1.5rem; font-weight: bold;">From $4,000</p>
+                        <p>One-time setup fee. Low monthly maintenance (~$50-100/mo).</p>
+                    </div>
                 </div>
-                <div class="glass-card">
-                    <h3>⏱️ Save Hours Daily</h3>
-                    <ul class="benefit-list">
-                        <li>Stop searching — <strong>ask and get answers</strong></li>
-                        <li>New hires onboard 50% faster</li>
-                        <li>Reduce "Hey, where is…?" interruptions</li>
-                    </ul>
-                </div>
-                <div class="glass-card">
-                    <h3>🔒 Secure & Accurate</h3>
-                    <ul class="benefit-list">
-                        <li>Answers always cite the source document</li>
-                        <li>Your data stays private — no training on it</li>
-                        <li>Role-based access so teams see only what they should</li>
-                    </ul>
+                <div style="margin-top: var(--space-xl);">
+                    <a href="contact.html" class="btn btn-primary">Get Your Document AI</a>
                 </div>
             </div>
         </section>
     </div>
-
-    <!-- CTA Section -->
-    <section class="cta-section"
-        style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, transparent 100%);">
-        <h2>Ready to Talk to Your Data?</h2>
-        <p>Transform your information overload into actionable intelligence.</p>
-        <div style="display: flex; justify-content: center; gap: var(--space-lg); flex-wrap: wrap;">
-            <a href="#contact-internal" class="btn btn-primary">Start Pilot Project</a>
-            <a href="#contact-external" class="btn btn-secondary">Get a Demo</a>
-        </div>
-    </section>
 
     <!-- Floating Navigation -->
     <a href="service3.html" class="nav-overlay prev">
