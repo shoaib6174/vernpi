@@ -109,7 +109,7 @@
         /* Application Cards */
         .app-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: var(--space-lg);
         }
 
@@ -174,6 +174,12 @@
             background: var(--accent-page);
         }
 
+        @media (max-width: 1024px) {
+            .app-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         @media (max-width: 768px) {
             .app-grid {
                 grid-template-columns: 1fr;
@@ -227,41 +233,51 @@
         <!-- Use Cases (Digital Employees) -->
         <section class="section">
             <div class="section-header">
-                <h2>Meet Your New Digital Workforce</h2>
-                <p>We build agents that act like specialized employees.</p>
+                <h2>Practical AI Assistants</h2>
+                <p>Practical AI assistants that automate everyday tasks — research, outreach, operations, billing, support, and data — so your team can focus on higher-value work.</p>
             </div>
 
             <div class="app-grid">
                 <div class="app-card">
                     <div class="app-number">01</div>
                     <div>
-                        <h4>The "Research Analyst"</h4>
-                        <p><strong>Goal:</strong> Keep you informed.</p>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Scours the web for competitor pricing, summarizes industry news, and sends you a morning briefing every day at 8 AM.</p>
+                        <h4>Research Assistant</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Collects and summarizes market or internal research into a short briefing.</p>
                     </div>
                 </div>
                 <div class="app-card">
                     <div class="app-number">02</div>
                     <div>
-                        <h4>The "Outreach Manager"</h4>
-                        <p><strong>Goal:</strong> Fill your pipeline.</p>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Finds leads on LinkedIn matching your criteria, enriches their data, and drafts personalized connection requests for you to review.</p>
+                        <h4>Outreach Specialist</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Finds leads, enriches contacts, and prepares personalized outreach drafts.</p>
                     </div>
                 </div>
                 <div class="app-card">
                     <div class="app-number">03</div>
                     <div>
-                        <h4>The "Ops Coordinator"</h4>
-                        <p><strong>Goal:</strong> Keep things running.</p>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Monitors inventory levels, predicts shortages based on sales trends, and drafts re-order emails to suppliers automatically.</p>
+                        <h4>Operations Assistant</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Monitors workflows and inventory, then automates routine ops tasks and alerts your team.</p>
                     </div>
                 </div>
                 <div class="app-card">
                     <div class="app-number">04</div>
                     <div>
-                        <h4>The "Data Clerk"</h4>
-                        <p><strong>Goal:</strong> Clean your data.</p>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Takes messy exports from one system, formats them perfectly, and uploads them to another system. Zero copy-paste errors.</p>
+                        <h4>Data Specialist</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Cleans, transforms, and syncs data across systems to remove manual work.</p>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-number">05</div>
+                    <div>
+                        <h4>Billing Assistant</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Prepares invoices, matches payments, and drafts billing follow-ups for approval.</p>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-number">06</div>
+                    <div>
+                        <h4>Support Specialist</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary);">Triages tickets, looks up KB answers, and drafts responses for faster resolution.</p>
                     </div>
                 </div>
             </div>
